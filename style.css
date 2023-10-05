@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amiri', serif;
+    font-family: 'Rubik', sans-serif;
+    direction: rtl;
+    text-decoration: none;
+    list-style: none;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(home.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+}
+
+.nav{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin: 40px;
+}
+
+.pc{
+    margin-left: 20px;
+}
+
+
+a{
+    color: white;
+}
+
+.logo{
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav ul li a:hover{
+    transition: 0.4s ease;
+    font-size: 17px;
+    color: rgb(127, 255, 127);
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h6{
+    font-size: 50px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+button{
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+button:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: black;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+.Book{
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.book1{
+    margin-top: 75px;
+    margin-right: 40px;
+    width: 255px;
+    cursor: pointer;
+}
+
+.book2{
+    margin-top: 75px;
+    margin-right: 40px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.book3{
+    margin-top: 75px;
+    margin-right: 40px;
+    width: 270px;
+    cursor: pointer;
+    
+}
+
+.book4{
+    margin-top: 75px;
+    margin-right: 40px;
+    width: 260px;
+    cursor: pointer;
+}
+
+.book5{
+    margin-top: 75px;
+    margin-right: 40px;
+    width: 260px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(127, 255, 127);
+}
+
+.Books{
+    background-color: white;
+}
+
+hr{
+    background-color: black;
+}
